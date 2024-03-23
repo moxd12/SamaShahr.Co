@@ -1,0 +1,914 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+
+body{
+    min-height: 100vh;
+    background: gray;
+    background-size:100%;
+    
+
+
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: white 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    left: 50px;
+    font-size: 32px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+}
+.html a{
+    position: relative;
+    top: 50px;
+    right: 7px;
+    font-size: 18px;
+    color:  black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+.html a::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: black;
+  transition: 0.3s;
+
+}
+.html a:hover::before{
+    width: 100%;
+
+}
+.hero{
+width: auto;
+height: auto;
+
+
+}
+
+
+.container{
+    width: 100%;
+    height: 250px;
+    background-color:transparent;
+    position: relative;
+    top: 150px;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgb(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+display: flex;
+}
+
+.leftbox{
+position: absolute;
+top: 9px;
+left: 15px;
+margin-left: 15px;
+color: black;
+justify-content: center;
+text-align: center;
+
+}
+.leftbox button{
+    
+    display: inline-block;
+    background-color: #6b00d5;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    
+}
+.rightbox{
+    position: absolute;
+    right: 7px;
+    width: auto;
+    height: auto;
+}
+.photo{
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 10px 15px gray inset;
+}
+
+
+
+
+
+
+
+
+
+
+.containerq{
+    width: 100%;
+    height: 250px;
+    background-color:transparent;
+    position: relative;
+    top: 200px;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgb(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+display: flex;
+}
+
+.leftboxq{
+position: absolute;
+top: 9px;
+left: 15px;
+margin-left: 15px;
+color: black;
+justify-content: center;
+text-align: center;
+
+}
+.buttonq{
+    
+    display: inline-block;
+    background-color: #6b00d5;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    
+}
+.rightboxq{
+    position: absolute;
+    right: 7px;
+    width: auto;
+    height: auto;
+}
+.photo{
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 10px 15px gray inset;
+}
+
+
+
+
+
+
+
+.containerqa{
+    width: 100%;
+    height: 250px;
+    background-color:transparent;
+    position: relative;
+    top: 250px;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgb(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+display: flex;
+}
+
+.leftboxqa{
+position: absolute;
+top: 9px;
+left: 15px;
+margin-left: 15px;
+color: black;
+justify-content: center;
+text-align: center;
+
+}
+.buttonqa{
+    
+    display: inline-block;
+    background-color: #6b00d5;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    
+}
+.rightboxqa{
+    position: absolute;
+    right: 7px;
+    width: auto;
+    height: auto;
+}
+.photo{
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 10px 15px gray inset;
+}
+
+
+
+
+
+
+
+
+
+
+.containerqab{
+    width: 100%;
+    height: 250px;
+    background-color:transparent;
+    position: relative;
+    top: 300px;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgb(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+display: flex;
+}
+
+.leftboxqab{
+position: absolute;
+top: 9px;
+left: 15px;
+margin-left: 15px;
+color: black;
+justify-content: center;
+text-align: center;
+
+}
+.buttonqab{
+    
+    display: inline-block;
+    background-color: #6b00d5;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    
+}
+.rightboxqab{
+    position: absolute;
+    right: 7px;
+    width: auto;
+    height: auto;
+}
+.photo{
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 10px 15px gray inset;
+}
+
+
+
+
+
+
+
+.containerqabc{
+    width: 100%;
+    height: 250px;
+    background-color:transparent;
+    position: relative;
+    top: 350px;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgb(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+display: flex;
+}
+
+.leftboxqabc{
+position: absolute;
+top: 9px;
+left: 15px;
+margin-left: 15px;
+color: black;
+justify-content: center;
+text-align: center;
+
+}
+.buttonqabc{
+    
+    display: inline-block;
+    background-color: #6b00d5;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    
+}
+.rightboxqabc{
+    position: absolute;
+    right: 7px;
+    width: auto;
+    height: auto;
+}
+.photo{
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 10px 15px gray inset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerqabcd{
+    width: 100%;
+    height: 250px;
+    background-color:transparent;
+    position: relative;
+    top: 400px;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgb(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+display: flex;
+}
+
+.leftboxqabcd{
+position: absolute;
+top: 9px;
+left: 15px;
+margin-left: 15px;
+color: black;
+justify-content: center;
+text-align: center;
+
+}
+.buttonqabcd{
+    
+    display: inline-block;
+    background-color: #6b00d5;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    
+}
+.rightboxqabcd{
+    position: absolute;
+    right: 7px;
+    width: auto;
+    height: auto;
+}
+.photo{
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 10px 15px gray inset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerqabcde{
+    width: 100%;
+    height: 250px;
+    background-color:transparent;
+    position: relative;
+    top: 450px;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgb(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+display: flex;
+}
+
+.leftboxqabcde{
+position: absolute;
+top: 9px;
+left: 15px;
+margin-left: 15px;
+color: black;
+justify-content: center;
+text-align: center;
+
+}
+.buttonqabcde{
+    
+    display: inline-block;
+    background-color: #6b00d5;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    
+}
+.rightboxqabcde{
+    position: absolute;
+    right: 7px;
+    width: auto;
+    height: auto;
+}
+.photo{
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 10px 15px gray inset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerqabcdef{
+    width: 100%;
+    height: 250px;
+    background-color:transparent;
+    position: relative;
+    top: 500px;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgb(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+display: flex;
+}
+
+.leftboxqabcdef{
+position: absolute;
+top: 9px;
+left: 15px;
+margin-left: 15px;
+color: black;
+justify-content: center;
+text-align: center;
+
+}
+.buttonqabcdef{
+    
+    display: inline-block;
+    background-color: #6b00d5;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    
+}
+.rightboxqabcdef{
+    position: absolute;
+    right: 7px;
+    width: auto;
+    height: auto;
+}
+.photo{
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 10px 15px gray inset;
+}
+
+
+
+
+
+
+.leftbox button{
+    width: 100%;
+    background: #6b00d5;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.leftbox button:hover{
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}
+.leftbox button span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.leftbox button:hover span{
+  
+    width: 30px;
+   
+}
+
+
+
+
+.buttonq{
+    width: 100%;
+    background: #6b00d5;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.buttonq:hover{
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}
+.buttonq span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.buttonq:hover span{
+  
+    width: 30px;
+   
+}
+
+
+
+
+
+
+
+.buttonqa{
+    width: 100%;
+    background: #6b00d5;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.buttonqa:hover{
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}
+.buttonqa span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.buttonqa:hover span{
+  
+    width: 30px;
+   
+}
+
+
+
+
+
+
+.buttonqab{
+    width: 100%;
+    background: #6b00d5;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.buttonqab:hover{
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}
+.buttonqab span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.buttonqab:hover span{
+  
+    width: 30px;
+   
+}
+
+
+
+
+
+.buttonqabc{
+    width: 100%;
+    background: #6b00d5;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.buttonqabc:hover{
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}
+.buttonqabc span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.buttonqabc:hover span{
+  
+    width: 30px;
+   
+}
+
+
+
+
+
+.buttonqabcd{
+    width: 100%;
+    background: #6b00d5;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.buttonqabcd:hover{
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}
+.buttonqabcd span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.buttonqabcd:hover span{
+  
+    width: 30px;
+   
+}
+
+
+
+
+
+
+
+.buttonqabcde{
+    width: 100%;
+    background: #6b00d5;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.buttonqabcd:hover{
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}
+.buttonqabcd span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.buttonqabcd:hover span{
+  
+    width: 30px;
+   
+}
+
+
+
+
+
+
+
+
+.buttonqabcde{
+    width: 100%;
+    background: #6b00d5;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.buttonqabcde:hover{
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}
+.buttonqabcde span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.buttonqabcde:hover span{
+  
+    width: 30px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+.buttonqabcdef{
+    width: 100%;
+    background: #6b00d5;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.buttonqabcdef:hover{
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}
+.buttonqabcdef span{
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.buttonqabcdef:hover span{
+  
+    width: 30px;
+   
+}
+
+
+
+
+
+
+
+
+.section{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.container{
+    transition: 200ms;
+}
